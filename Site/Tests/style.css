@@ -1,0 +1,108 @@
+header
+{
+    border: 1px darkblue solid;
+    background: linear-gradient(white,30%, rgb(51, 132, 224));
+}
+
+.menu_top
+{
+    display : flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.element
+{
+    margin: 3px;
+    padding: 3px;
+}
+
+.element:nth-child(1)
+{
+    border: 1px darkblue solid;
+    Background: linear-gradient(white,20%, rgb(112, 168, 233));
+}
+
+.element:nth-child(2)
+{
+    border: 1px darkblue solid;
+    Background: linear-gradient(white,20%, rgb(112, 168, 233));
+}
+
+.element:nth-child(3)
+{
+    border: 1px darkblue solid;
+    Background: linear-gradient(white,20%, rgb(112, 168, 233));
+}
+
+.element:nth-child(4)
+{
+    border: 1px darkblue solid;
+    Background: linear-gradient(white,20%, rgb(112, 168, 233));
+}
+
+.element:nth-child(5)
+{
+    border: 1px darkblue solid;
+    Background: linear-gradient(white,20%, rgb(112, 168, 233));
+}
+
+body
+{
+    width: 100%;
+}
+
+.middle_page
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer
+{
+    border-top: 1px darkblue solid;
+    border-bottom: 1px white;
+    background: white;
+}
+
+.menu_bottom
+{
+    display: flex;
+}
+.bottom
+{
+    margin: 3px;
+    padding: 10px;
+}
+.bottom:nth-child(1)
+{
+    flex: 1 1 auto;
+    border: 1px darkblue;
+    background: linear-gradient(white,30%, rgb(51, 132, 224));
+}
+
+.bottom:nth-child(2)
+{
+    flex: 1 1 auto;
+    border: 1px darkblue;
+    background: linear-gradient(white,30%, rgb(51, 132, 224));;
+}
+
+.bottom:nth-child(3)
+{
+    flex: 1 1 auto;
+    border: 1px darkblue;
+    background: linear-gradient(white,30%, rgb(51, 132, 224));
+}
+
+.bottom:nth-child(4)
+{
+    flex: 1 1 auto;
+    border: 1px darkblue;
+    background: linear-gradient(white,30%, rgb(51, 132, 224));
+}
+
+ul
+{
+    list-style-type: none;
+}

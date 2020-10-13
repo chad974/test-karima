@@ -1,0 +1,254 @@
+/* GENERAL */
+
+body
+{
+    width: 100%;
+}
+
+h2
+{
+    color: black;
+    font-size: 40px;
+    text-transform: uppercase; 
+    font-family: arial, serif;
+    padding: 150px 0 0 500px;
+}
+
+h3
+{
+    font-family: arial, serif;
+    font-size: 24px;
+    color: black;
+    text-transform: uppercase;
+}
+
+/* HEADER */
+
+h1
+{
+    font-family: 'Crete Round', serif; /*prend la 1ere police téléchargé, si pas dispo prend la 2e qui est intégré dans css*/
+    font-size: 80px; /*taille de la police*/
+    color: black;
+    float: left;
+    margin-top: 30px;
+}
+
+ul
+{
+    list-style: none; /*pour enlever les puces sur les listes*/
+}
+
+header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    /*height: 140px; /*création d'un bloc invisible sur le header*/
+}
+
+header nav
+{
+    float: right; /*pour mettre les puces sur la droite*/
+    margin-top: 40px; /*séparation entre le haut de la page*/
+}
+
+header nav ul li /*on modifie le li dans le ul dans le nav dans le header*/
+{
+    display: inline-block; /*pour mettre en aligné et non en colonne*/
+    text-transform: uppercase; /*pour mettre le texte en capital*/
+    font-family: arial, serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 30px; /*espacement entre la fin et le nav*/
+}
+
+a
+{
+    text-decoration: none; /*on enlève le trait du lien hypertexte*/
+    color:black;
+}
+
+a:hover /*quand on passe dessus le lien avec la souris*/
+{
+    color:goldenrod;
+}
+
+.en_tete
+{
+    width: 80%; /*création de la largeur de l'en-tête*/
+    margin: 0 auto; /*on crée une marge*/
+    padding: 0 20px; /*le 1er chiffre c'est le haut-bas, le 2e chiffre le droite, gauche*/
+}
+
+/* MAIN IMAGE */
+
+#main_image /*on appelle un id par un #*/
+{
+    height: 970px; /*hauteur de l'image*/
+    background: url(Images/Location\ -\ Copie.webp) center no-repeat;
+    background-size: 100%;
+    max-width: 100%;
+}
+
+.button_1
+{
+    display: block;
+    width: 200px;
+    height: 100px;
+    background: black;
+    color: white;
+    font-size: 25px;
+    margin: 0 0 0 860px;
+    line-height: 30px; /*espacement texte haut-bas*/
+    border-radius: 20px;
+    font-family: arial, serif;
+    text-align: center;
+}
+
+.button_1:hover
+{
+    color: goldenrod;
+}
+
+/* ASIDE */
+
+aside
+{
+    display: flex;
+    position: relative;
+    background-color:black;
+    opacity: 0.6;
+    border-radius: 25px;
+    padding: 20px;
+    float: right;
+    margin-right: 500px;
+}
+
+form
+{
+    text-align: center;
+    font-family: arial, serif;
+    font-size: 20px;
+}
+
+input
+{
+    font-size: 23px;
+    font-style: bold;
+
+}
+
+h4
+{
+    color: white;
+    font-size: 50px;
+}
+
+.button_2:hover
+{
+    background-color:darkgoldenrod;
+    color: black;
+}
+
+/* STEPS */
+
+#steps ul
+{
+    display: flex;
+    margin: 80px 0;
+}
+
+#steps ul li
+{
+    flex : 1 1 auto;
+    padding-top: 300px;
+    text-align: center;
+}
+
+#step-1
+{
+   background: url(Icones/Icon-1.png) no-repeat top center;
+}
+
+#step-2
+{
+    background: url(Icones/Icon-2.png) no-repeat top center;
+}
+
+#step-3
+{
+    background: url(Icones/Icon-3.png) no-repeat top center;
+}
+
+#step-4
+{
+    background: url(Icones/Icon-4.png) no-repeat top center;
+}
+
+/* FOOTER */
+
+footer
+{
+    border-top: black;
+    border-bottom: 1px white;
+    background: black;
+    opacity: 0.8;
+}
+
+.bas_page
+{
+    display: flex;
+    font-family: arial, serif;
+}
+
+.bottom
+{
+    margin: 3px;
+    padding: 10px;
+}
+.bottom:nth-child(1)
+{
+    flex: 1 1 auto;
+    color: white;
+}
+
+.bottom:nth-child(2)
+{
+    flex: 1 1 auto;
+    color: white;
+}
+
+.bottom:nth-child(3)
+{
+    flex: 1 1 auto;
+    color: white;
+}
+
+.bottom:nth-child(4)
+{
+    flex: 1 1 auto;
+    color: white;
+}
+
+footer p
+{
+    text-transform: uppercase;
+    font-style: bold;
+    font-size: 20px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1280px)
+{
+    #menu_top
+    {
+        width: auto;
+    };
+
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title>PyLOC</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Crete+Round'>
+    </head>
+
+    <body>
+        <header>
+            <div id="main-title"><a href="./PyLOC.html">PyLOC</a></div>
+            <div id="icons-menu">
+                <div id="icons">
+                    <img id="search" class="toolbar-icon" src="Icones/recherche.png" alt="Recherche"/>
+                    <img id="login" class="toolbar-icon" src="Icones/Connexion.jpg" alt="Se connecter/ S'inscrire"/><p>Connexion</p>
+                </div>
+            
+                <nav id="main-menu" aria-label="Menu Principal">
+                    <ul>
+                        <li><a href="./tourisme.html">Tourisme</a></li>
+                        <li><a href="./utilitaires.html">Utilitaires</a></li>
+                        <li><a href="./services.html">Services</a></li>
+                        <li><a href="./agences.html">Agences</a></li>
+                        <li><a href="./entreprise.html">Entreprise</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section>
+            <div>
+                <div id="home-main-content">
+                    <div id="titre-main-content">
+                        <h1>Louez en toute sérénité</h1>
+                    </div>
+
+                    <div id="formulaire">
+                        <form action="" method="GET">
+                            <table id="rental-form" aria-describedby="Formulaire de réservation">
+                                <tr>
+                                    <td colspan="2"><h3>Réservez dès aujourd'hui</h3></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>
+                                        <label for="départ">Départ :</label>
+                                        <select id="départ" title="Agence de départ" required> 
+                                            <option value="">Agence de départ</option>
+                                            <option value="1">Université Dauphine</option>
+                                            <option value="2">Paris Gare du Nord</option>
+                                            <option value="3">Paris Gare de l'Est</option>
+                                            <option value="4">Paris Gare Saint Lazare</option>
+                                            <option value="5">Paris Gare de Lyon</option>
+                                            <option value="6">Paris Gare d'Austerlitz</option>
+                                            <option value="7">Paris Gare MontParnasse</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <label for="date_depart">Date :</label>
+                                        <input type=date id="date_depart" placeholder="Date de départ" required /> 
+                                    </td>                                   
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="retour">Retour :</label>
+                                        <select id="retour" title="Agence de retour" required> 
+                                            <option value="">Agence de retour</option>
+                                            <option value="1">Université Dauphine</option>
+                                            <option value="2">Paris Gare du Nord</option>
+                                            <option value="3">Paris Gare de l'Est</option>
+                                            <option value="4">Paris Gare Saint Lazare</option>
+                                            <option value="5">Paris Gare de Lyon</option>
+                                            <option value="6">Paris Gare d'Austerlitz</option>
+                                            <option value="7">Paris Gare MontParnasse</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <label for="retour">Date :</label>
+                                        <input type=date id="retour" placeholder="Date de retour" required /> 
+                                    </td>  
+                                </tr>
+
+                                <tr>
+                                    <td colspan="2">
+                                        <label for="nom">Nom :</label>
+                                        <input type="text" id="nom" placeholder="Nom" pattern="[a-zA-Z\s\-]+" required /> 
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="2">
+                                        <label for="email">Email :</label>
+                                        <input type="email" id="email" placeholder="Email" required /> 
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="2">
+                                        <label for="tel">Téléphone :</label>
+                                        <input type="tel" id="tel" placeholder="Téléphone" required /> 
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="2">
+                                        <button type="button" name="submit">Confirmez la réservation</button>
+                                    </td>
+                                </tr>
+                                
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="footer-bloc">
+                <div id="reservation">
+                    <h2>A propos de votre réservation</h2>
+                    <nav class="nav-footer" aria-label="A propos de votre réservation"></nav>
+                        <ul>
+                            <li><a href="./todo.html">Gérer votre réservation</a></li>
+                            <li><a href="./todo.html">Imprimer votre facture</a></li>
+                            <li><a href="./todo.html">Enregistrement en ligne</a></li>
+                            <li><a href="./todo.html">Nous contacter</a></li>
+                        </ul>
+                </div>
+            </div>
+
+            <div class="footer-bloc">
+                <div id="espace-pro">
+                    <h2>Espace pro</h2>
+                    <nav class="nav-footer" aria-label="Espace Pro"></nav>
+                        <ul>
+                            <li><a href="./todo.html">Entreprises</a></li>
+                            <li><a href="./todo.html">Agences de voyage</a></li>
+                            <li><a href="./todo.html">Tours opérateurs</a></li>
+                            <li><a href="./todo.html">Location moyenne durée</a></li>
+                        </ul>
+                </div>
+            </div>
+                
+            <div class="footer-bloc">
+                <div id="about">
+                    <h2>A propos de PyLOC</h2>
+                    <nav class="nav-footer" aria-label="A propos de PyLOC"></nav>
+                        <ul>
+                            <li><a href="./todo.html">Votre avis</a></li>
+                            <li><a href="./todo.html">Carrières</a></li>
+                            <li><a href="./todo.html">Nos partenaires</a></li>
+                            <li><a href="./todo.html">Notre entreprise</a></li>
+                        </ul>
+                </div>
+            </div>
+                
+            <div class="footer-bloc">
+                <div id="informations-legales">
+                    <h2>Informations légales</h2>
+                    <nav class="nav-footer" aria-label="Informations légales"></nav>
+                        <ul>
+                            <li><a href="./todo.html">Politique de traitement des dommages</a></li>
+                            <li><a href="./todo.html">Dépôt de garantie</a></li>
+                            <li><a href="./todo.html">Politique de confidentialité</a></li>
+                            <li><a href="./todo.html">Conditions générales</a></li>
+                        </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
