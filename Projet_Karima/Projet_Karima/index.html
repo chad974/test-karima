@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>La page de Karima</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://use.fontawesome.com/2d521b3bfe.js"></script>
+</head>
+
+<body>
+<header class="banner">
+    <div id="logo"><a href="./index.html">PyLOC</a></div>
+    <div id="icons-and-menus">
+        <div id="icons">
+            <ul>
+                <li><i class="fa fa-user" aria-hidden="true"></i> Se connecter</li>
+            </ul>
+        </div>
+        <nav id="main-menu" aria-label="Menu principal">
+            <ul>
+                <li><a href="./tourisme.html">Tourisme</a></li>
+                <li><a href="./utilitaires.html">Utilitaires</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./agences.html">Agences</a></li>
+                <li><a href="./entreprise.html">Entreprise</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section>
+    <div id="home-main-content">
+        <h1 id="slogan">Louez ent toute sérénité</h1>
+        <form>
+            <table id="rental-form" aria-describedby="Formulaire de réservation">
+                <tr>
+                    <th colspan="2">Réserver dès aujourd'hui</th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="departure">Départ : </label>
+                        <input type="date" id="departure" title="Date de départ" required/>
+                    </td>
+                    <td>
+                        <label for="departure-date">Date : </label>
+                        <input type="date" id="departure-date" title="Date de départ" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="return-branch">Retour : </label>
+                        <input type="date" id="return-branch" title="Date de départ" required/>
+
+                    </td>
+                    <td>
+                        <label for="return-date">Date : </label>
+                        <input type="date" id="return-date" title="Date de retour" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="nom">Nom : </label>
+                        <input type="text" id="nom" placeholder="Nom"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="email">Email : </label>
+                        <input type="email" id="email"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="tel">Numéro de téléphone : </label>
+                        <input type="tel" id="tel"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="button" name="submit">Confirmer la résérvation</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</section>
+
+<footer class="banner">
+    <div class="footer-bloc">
+        <div id="reservation">
+            <h1>A propos de votre réservation</h1>
+            <nav class="nav-footer" aria-label="A propos de votre réservation">
+                <ul>
+                    <li><a href="">Gérer votre réservation</a></li>
+                    <li><a href="">Imprimer votre facture</a></li>
+                    <li><a href="">Enregistrement en ligne</a></li>
+                    <li><a href="">Nous contacter</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="footer-bloc">
+        <div id="espace-pro">
+            <h1>Espace pro</h1>
+            <nav class="nav-footer" aria-label="Espace pro">
+                <ul>
+                    <li><a href="">Entreprises</a></li>
+                    <li><a href="">Agences de voyage</a></li>
+                    <li><a href="">Tour operators</a></li>
+                    <li><a href=" ">Location moyenne durée</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="footer-bloc">
+        <div id="a-propos-de">
+            <h1>A propos de</h1>
+            <nav class="nav-footer" aria-label="A propos de PyLOC">
+                <ul>
+                    <li><a href="">Votre avis</a></li>
+                    <li><a href="">Carrières</a></li>
+                    <li><a href="">Nos partenaires</a></li>
+                    <li><a href="">Notre entreprise</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="footer-bloc">
+        <div id="infos-legal">
+            <h1>Informations légales</h1>
+            <nav class="nav-footer" aria-label="Informations légales">
+                <ul>
+                    <li><a href="">Politique de traitement des dommages</a></li>
+                    <li><a href="">Dépôt de garantie</a></li>
+                    <li><a href="">Politique de confidentialité</a></li>
+                    <li><a href="">Conditions générales</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
